@@ -1,0 +1,37 @@
+.size_big {
+    width: 200px;
+    height: 40px;
+}
+
+.size_normal {
+    width: 120px;
+    height: 40px;
+}
+
+.size_mini {
+    min-width: 52px;
+    height: 26px;
+}
+
+.el-button {
+    border: 1px solid @color_grey;
+    padding: 2px 5px;
+}
+
+.el-button:focus,
+.el-button:hover {
+    .el-button();
+    background-color: @color_white;
+    color: @color_black;
+}
+
+.el-button--primary:focus,
+.el-button--primary:hover {
+    .el-button--primary()
+}
+
+.el-button--primary {
+    background-color: @color_primary;
+    border: 1px solid @color_primary;
+    color: @color_white;
+}

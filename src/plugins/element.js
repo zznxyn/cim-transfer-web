@@ -1,0 +1,91 @@
+import Vue from 'vue'
+import {
+    Button,
+    Checkbox,
+    Form,
+    FormItem,
+    Input,
+    Col,
+    Row,
+    Container,
+    Header,
+    Aside,
+    Main,
+    Menu,
+    Submenu,
+    MenuItem,
+    MenuItemGroup,
+    Tabs,
+    TabPane,
+    Collapse,
+    CollapseItem,
+    Tree,
+    Table,
+    TableColumn,
+    Message,
+    Breadcrumb,
+    BreadcrumbItem,
+    Scrollbar,
+    Image,
+    DatePicker,
+    Radio,
+    RadioGroup,
+    RadioButton,
+    CheckboxButton,
+    CheckboxGroup,
+    Select,
+    Upload,
+    MessageBox,
+    Pagination,
+    Dialog,
+    Option,
+    Timeline,
+    TimelineItem,
+    Card,
+    Footer,
+} from 'element-ui'
+
+Vue.use(Button)
+Vue.use(Form)
+Vue.use(FormItem)
+Vue.use(Input)
+Vue.use(Checkbox)
+Vue.use(Container)
+Vue.use(Header)
+Vue.use(Aside)
+Vue.use(Main)
+Vue.use(Menu)
+Vue.use(Submenu)
+Vue.use(MenuItem)
+Vue.use(MenuItemGroup)
+Vue.use(Col)
+Vue.use(Row)
+Vue.use(Tabs)
+Vue.use(TabPane)
+Vue.use(Collapse)
+Vue.use(CollapseItem)
+Vue.use(Tree)
+Vue.use(Table)
+Vue.use(TableColumn)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
+Vue.use(Scrollbar)
+Vue.use(Image)
+Vue.use(DatePicker)
+Vue.use(Radio)
+Vue.use(RadioGroup)
+Vue.use(RadioButton)
+Vue.use(CheckboxButton)
+Vue.use(CheckboxGroup)
+Vue.use(Select)
+Vue.use(Upload)
+Vue.use(Pagination)
+Vue.use(Dialog)
+Vue.use(Option)
+Vue.use(Timeline)
+Vue.use(TimelineItem)
+Vue.use(Card)
+Vue.use(Footer)
+Vue.prototype.$message = Message
+Vue.prototype.$confirm = MessageBox.confirm
+// Vue.prototype.$msgbox = MessageBox

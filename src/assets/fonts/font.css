@@ -1,0 +1,13 @@
+@font-face {  
+    font-family: 'DS-Digital';  
+    src: url('./DS-Digital.ttf'); 
+    font-weight: normal;  
+    font-style: normal;  
+}
+
+@font-face {  
+    font-family: 'PingFang-SC';  
+    src: url('./PingFang-SC.ttf'); 
+    font-weight: normal;  
+    font-style: normal;  
+}

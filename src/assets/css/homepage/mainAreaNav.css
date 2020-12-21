@@ -1,0 +1,35 @@
+.nav_main_area {
+    background-color: #fff;
+    height: 52px;
+}
+
+.lt_img_main_area {
+    height: 49px;
+}
+
+.title_main_area {
+    font-size: 18px;
+    font-family: PingFang SC;
+    font-weight: 600;
+    color: rgba(5, 40, 94, 1);
+}
+
+.placeholder_main_area {
+    width: 50px;
+    border: 1px solid #fff;
+}
+
+.icon_main_area {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.link_main_area {
+    cursor: pointer;
+    font-size: 14px;
+    font-family: PingFang SC;
+    font-weight: 400;
+    color: rgba(50, 55, 90, 1);
+    vertical-align: middle;
+}

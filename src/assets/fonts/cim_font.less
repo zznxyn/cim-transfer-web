@@ -1,0 +1,32 @@
+@font_size_mid: 16px;
+@font_size_sm: 14px;
+@font_size_mini: 12px;
+
+.font {
+    font-family: Microsoft YaHei;
+    color: @color_black;
+}
+
+.blob {
+   font-weight: 600; 
+}
+
+.font_mid {
+    font-size: @font_size_mid;
+    .font()
+}
+
+.dis_mid {
+    font-size: @font_size_mid;
+    font-weight: 600;
+    .font();
+}
+.font_sm {
+    font-size: @font_size_sm;
+    .font()
+}
+
+.font_mini {
+    font-size: @font_size_mini;
+    .font()
+}
